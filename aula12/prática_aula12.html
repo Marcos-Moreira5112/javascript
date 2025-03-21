@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praticando</title>
+    
+</head>
+<body>
+      <input type="number" name="texto" id="texto" value=""/>
+      <input type="button" value="contagem" onclick="calcular()"/>
+      <div id="resultado">
+        
+      </div>
+      
+      <script>
+        function calcular() {
+          var cont = window.document.querySelector('#texto')
+          var contX = Number(cont.value)
+          var resultado = window.document.querySelector('#resultado')
+          resultado.innerHTML += `vc digitou: ${contX}`
+        }
+      </script>
+      
+</body>
+</html>  
