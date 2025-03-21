@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" name="texto" id="texto">
+        <input type="button" value="verificar" onclick="verif()">
+        <div id="resultado">
+
+        </div>
+    </form>
+    <script>
+        function verif() {
+            var writeX = document.querySelector('#texto')
+            var write = (texto.value)
+            var resultado = document.querySelector('#resultado')
+            resultado.innerHTML = `<p>Essa é a variáve:${write}</p>`
+
+            if (write == 'Brasil') {
+                resultado.innerHTML += `<p>Logo, ele é brasileiro</P>`
+            } else {
+                resultado.innerHTML += `<p>Logo, ele não é brasileiro :(`
+            }
+        }
+    </script>
+</body>
+</html>
