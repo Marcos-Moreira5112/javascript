@@ -16,14 +16,14 @@
     <script>
         function verif() {
             var writeX = document.querySelector('#texto')
-            var write = (texto.value)
+            var write = (writeX.value)
             var resultado = document.querySelector('#resultado')
             resultado.innerHTML = `<p>Essa é a variáve:${write}</p>`
 
             if (write == 'Brasil') {
-                resultado.innerHTML += `<p>Logo, ele é brasileiro</P>`
+                resultado.innerHTML += `<p>Logo, ele é brasileiro</p>`
             } else {
-                resultado.innerHTML += `<p>Logo, ele não é brasileiro :(`
+                resultado.innerHTML += `<p>Logo, ele não é brasileiro :(</p>`
             }
         }
     </script>
