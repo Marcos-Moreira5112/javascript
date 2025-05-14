@@ -6,9 +6,16 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 main {
   display: flex;
   flex-flow: column nowrap;
+  flex: 0 1 650px;
+  max-height: 350px;
   align-items: center;
   margin: 10px;
   border: 1px solid gray;
@@ -23,19 +30,19 @@ main {
 }
 
 ul {
-  width: 90%;
-  margin: 15px 0px;
   display: flex;
+  width: 85%;
+  height: 100%;
+  margin: 15px 0px;
   flex-flow: row wrap;
   gap: 6px;
   list-style: none;
 }
 
 li {
-    border: 1px solid gray;
-    border-radius: 2px;
-    flex: 1 1 70px;
-    height: 30px;
-    padding: 4px 0px 0px 4px;
-    
+  border: 1px solid gray;
+  border-radius: 2px;
+  flex: 1 1 70px;
+  max-height: 60px;
+  padding: 4px 0px 0px 4px;  
 }
