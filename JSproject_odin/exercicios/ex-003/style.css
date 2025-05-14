@@ -21,12 +21,17 @@ main {
   border: 1px solid gray;
   border-radius: 5px;
   box-shadow: 1px 1px 5px gray;
+  background-color: floralwhite;
 }
 
 .selector {
   display: flex;
   gap: 10px;
   margin: 10px;
+}
+
+select {
+  background-color: floralwhite;
 }
 
 ul {
@@ -40,6 +45,8 @@ ul {
 }
 
 li {
+  color: floralwhite;
+  background-color: #008080 ;
   border: 1px solid gray;
   border-radius: 2px;
   flex: 1 1 70px;
