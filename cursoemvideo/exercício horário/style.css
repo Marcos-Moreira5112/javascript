@@ -9,7 +9,7 @@
 body {
   font-family: arial, helvetica, sans-serif;
   text-align: center;
-  background-color: lightblue;
+  background-color: rgb(243, 223, 109);
   color: white;
 }
 
@@ -23,6 +23,7 @@ section {
   background-color: white;
   color: black;
   width: 90vw;
+  max-width: 500px;
   margin: 15px auto 10px;
   box-shadow: 1.5px 1.5px 8px rgba(0, 0, 0, 0.20);
   border-radius: 10px;
@@ -33,10 +34,11 @@ section {
 }
 
 #C-imagem {
-  margin: 10px 0px;
+
 }
 
 #imagem {
   max-width: 90%;
   height: auto;
+  margin: 10px 0px;
 }
