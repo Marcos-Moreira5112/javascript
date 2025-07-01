@@ -21,7 +21,7 @@
       
         <div>
           <label for="inicio">Início:</label>
-          <input type="number" name="iniciotxt" id="iniciotxt" placeholder="Digite o início">
+          <input type="number" name="inicio" id="inicio" placeholder="Digite o início">
         </div>
         
         <div>
@@ -34,10 +34,12 @@
           <input type="number" name="passos" id="passos" placeholder="Digite os passos">
         </div>
         
+        <input type="button" name="contar" id="contar" value="Contar" onclick="contar()"/>
+        
       </fieldset>
     
-    <div>
-      <!-- vai ser adicionado algo-->
+    <div id="res">
+      <p>Preparando contagem...</p>
     </div>
     
   </section>

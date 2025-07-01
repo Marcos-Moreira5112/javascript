@@ -33,9 +33,14 @@ section {
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
-  gap: 8px;
-  margin: 5px auto;
+  gap: 10px;
+  margin: 10px auto;
   width: 80%;
+  border: none;
+}
+
+#inputs > div > label {
+  font-size: 20px;
 }
 
 #inputs > div > input {
@@ -52,4 +57,13 @@ section {
   clip: rect(0 0 0 0);
   white-space: nowrap;
   border: 0px;
+}
+
+#contar {
+  padding: 5px 10px;
+}
+
+#res {
+  margin: 10px;
+  border: 1px dashed black;
 }
