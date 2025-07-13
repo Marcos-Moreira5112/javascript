@@ -34,3 +34,7 @@ select {
   margin: 20px;
   flex: 1 1 auto;
 }
+
+option {
+  margin: 5px;
+}
